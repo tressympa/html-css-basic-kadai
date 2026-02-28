@@ -14,7 +14,7 @@
     width: 800px;
     height: 800px;
     position: relative;
-    margin: 20px;
+    margin: 20px auto 20px auto;
     background-color: #ffd9df;
 }
 #middle-child01,
