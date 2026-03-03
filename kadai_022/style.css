@@ -20,7 +20,8 @@ main {
     padding: 10px;
 }
 #parent {
-    display: block;
+    display: flex;
+    justify-content: space-around;
 }
 .contents {
     border: solid 3px rgb(238, 204, 204);
@@ -62,6 +63,9 @@ a:hover {
     }
     p {
         font-size: 25px;
+    }
+    #parent {
+        flex-direction: column;
     }
 }
 footer {
